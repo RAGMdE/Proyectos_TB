@@ -1,6 +1,6 @@
-Producto,Precio_Dia,Precio_Mercadona,Donde comprar,Donde_comprar
-HUEVO GALLINA CAMPERA,3.19,2.4,Mercadona,Mercadona
-CALABAZA EN TROZOS,1.59,1.71,Dia,Dia
-KEFIR,1.75,1.25,Mercadona,Mercadona
-ESPARRAGO VERDE,1.99,1.88,Mercadona,Mercadona
-UVA BLANCA SIN SEMILLA,2.29,2.25,Mercadona,Mercadona
+Producto,Precio_Dia,Precio_Mercadona,Donde_comprar,Tipo_Clasificacion
+HUEVO GALLINA CAMPERA,3.19,2.4,Mercadona,Supermercado
+CALABAZA EN TROZOS,1.59,1.71,Dia,Supermercado
+KEFIR,1.75,1.25,Mercadona,Supermercado
+ESPARRAGO VERDE,1.99,1.88,Mercadona,Supermercado
+UVA BLANCA SIN SEMILLA,2.29,2.25,Mercadona,Supermercado
