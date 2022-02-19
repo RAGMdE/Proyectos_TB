@@ -841,3 +841,202 @@ AssertionError
 2022-02-19 12:25:45,058:INFO:Checking exceptions
 2022-02-19 12:25:45,058:INFO:Preloading libraries
 2022-02-19 12:25:45,058:INFO:Preparing display monitor
+2022-02-19 12:46:20,949:INFO:Initializing create_model()
+2022-02-19 12:46:20,951:INFO:create_model(estimator=lda, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=True, system=True, metrics=None, add_to_model_list=True, probability_threshold=None, display=None, kwargs={})
+2022-02-19 12:46:20,951:INFO:Checking exceptions
+2022-02-19 12:46:20,951:INFO:Preparing display monitor
+2022-02-19 12:46:20,973:INFO:Importing libraries
+2022-02-19 12:46:20,973:INFO:Copying training dataset
+2022-02-19 12:46:20,974:INFO:Defining folds
+2022-02-19 12:46:20,974:INFO:Declaring metric variables
+2022-02-19 12:46:20,985:INFO:Importing untrained model
+2022-02-19 12:46:20,997:INFO:Linear Discriminant Analysis Imported succesfully
+2022-02-19 12:46:21,015:INFO:Starting cross validation
+2022-02-19 12:46:21,016:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-02-19 12:46:25,850:INFO:Calculating mean and std
+2022-02-19 12:46:25,851:INFO:Creating metrics dataframe
+2022-02-19 12:46:25,862:INFO:Finalizing model
+2022-02-19 12:46:25,877:INFO:Uploading results into container
+2022-02-19 12:46:25,877:INFO:Uploading model into container now
+2022-02-19 12:46:25,897:INFO:create_model_container: 20
+2022-02-19 12:46:25,898:INFO:master_model_container: 20
+2022-02-19 12:46:25,898:INFO:display_container: 6
+2022-02-19 12:46:25,898:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+                           solver='svd', store_covariance=False, tol=0.0001)
+2022-02-19 12:46:25,898:INFO:create_model() succesfully completed......................................
+2022-02-19 12:47:59,983:INFO:Initializing tune_model()
+2022-02-19 12:47:59,983:INFO:tune_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+                           solver='svd', store_covariance=False, tol=0.0001), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=False, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, display=None, kwargs={})
+2022-02-19 12:47:59,983:INFO:Checking exceptions
+2022-02-19 12:47:59,984:INFO:Preparing display monitor
+2022-02-19 12:48:00,001:INFO:Copying training dataset
+2022-02-19 12:48:00,002:INFO:Checking base model
+2022-02-19 12:48:00,002:INFO:Base model : Linear Discriminant Analysis
+2022-02-19 12:48:00,012:INFO:Declaring metric variables
+2022-02-19 12:48:00,022:INFO:Defining Hyperparameters
+2022-02-19 12:48:00,116:INFO:Tuning with n_jobs=-1
+2022-02-19 12:48:00,116:INFO:Initializing RandomizedSearchCV
+2022-02-19 12:48:00,439:INFO:best_params: {'actual_estimator__solver': 'lsqr', 'actual_estimator__shrinkage': 'auto'}
+2022-02-19 12:48:00,440:INFO:Hyperparameter search completed
+2022-02-19 12:48:00,440:INFO:SubProcess create_model() called ==================================
+2022-02-19 12:48:00,440:INFO:Initializing create_model()
+2022-02-19 12:48:00,440:INFO:create_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+                           solver='svd', store_covariance=False, tol=0.0001), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=True, system=False, metrics=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x0000022F0AAC6B20>, kwargs={'solver': 'lsqr', 'shrinkage': 'auto'})
+2022-02-19 12:48:00,440:INFO:Checking exceptions
+2022-02-19 12:48:00,440:INFO:Importing libraries
+2022-02-19 12:48:00,441:INFO:Copying training dataset
+2022-02-19 12:48:00,441:INFO:Defining folds
+2022-02-19 12:48:00,442:INFO:Declaring metric variables
+2022-02-19 12:48:00,450:INFO:Importing untrained model
+2022-02-19 12:48:00,450:INFO:Declaring custom model
+2022-02-19 12:48:00,457:INFO:Linear Discriminant Analysis Imported succesfully
+2022-02-19 12:48:00,478:INFO:Starting cross validation
+2022-02-19 12:48:00,479:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-02-19 12:48:00,546:INFO:Calculating mean and std
+2022-02-19 12:48:00,547:INFO:Creating metrics dataframe
+2022-02-19 12:48:00,558:INFO:Finalizing model
+2022-02-19 12:48:00,571:INFO:Uploading results into container
+2022-02-19 12:48:00,572:INFO:Uploading model into container now
+2022-02-19 12:48:00,572:INFO:create_model_container: 21
+2022-02-19 12:48:00,572:INFO:master_model_container: 21
+2022-02-19 12:48:00,572:INFO:display_container: 7
+2022-02-19 12:48:00,572:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:48:00,572:INFO:create_model() succesfully completed......................................
+2022-02-19 12:48:00,647:INFO:SubProcess create_model() end ==================================
+2022-02-19 12:48:00,661:INFO:create_model_container: 21
+2022-02-19 12:48:00,661:INFO:master_model_container: 21
+2022-02-19 12:48:00,661:INFO:display_container: 7
+2022-02-19 12:48:00,661:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:48:00,661:INFO:tune_model() succesfully completed......................................
+2022-02-19 12:49:04,833:INFO:Initializing predict_model()
+2022-02-19 12:49:04,833:INFO:predict_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-02-19 12:49:04,834:INFO:Checking exceptions
+2022-02-19 12:49:04,834:INFO:Preloading libraries
+2022-02-19 12:49:04,834:INFO:Preparing display monitor
+2022-02-19 12:50:56,495:INFO:Initializing tune_model()
+2022-02-19 12:50:56,495:INFO:tune_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+                           solver='svd', store_covariance=False, tol=0.0001), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=False, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, display=None, kwargs={})
+2022-02-19 12:50:56,495:INFO:Checking exceptions
+2022-02-19 12:50:56,497:INFO:Preparing display monitor
+2022-02-19 12:50:56,518:INFO:Copying training dataset
+2022-02-19 12:50:56,519:INFO:Checking base model
+2022-02-19 12:50:56,520:INFO:Base model : Linear Discriminant Analysis
+2022-02-19 12:50:56,533:INFO:Declaring metric variables
+2022-02-19 12:50:56,545:INFO:Defining Hyperparameters
+2022-02-19 12:50:56,633:INFO:Tuning with n_jobs=-1
+2022-02-19 12:50:56,633:INFO:Initializing RandomizedSearchCV
+2022-02-19 12:50:56,978:INFO:best_params: {'actual_estimator__solver': 'lsqr', 'actual_estimator__shrinkage': 'auto'}
+2022-02-19 12:50:56,979:INFO:Hyperparameter search completed
+2022-02-19 12:50:56,979:INFO:SubProcess create_model() called ==================================
+2022-02-19 12:50:56,979:INFO:Initializing create_model()
+2022-02-19 12:50:56,980:INFO:create_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+                           solver='svd', store_covariance=False, tol=0.0001), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=True, system=False, metrics=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x0000022F0AACD160>, kwargs={'solver': 'lsqr', 'shrinkage': 'auto'})
+2022-02-19 12:50:56,980:INFO:Checking exceptions
+2022-02-19 12:50:56,980:INFO:Importing libraries
+2022-02-19 12:50:56,980:INFO:Copying training dataset
+2022-02-19 12:50:56,981:INFO:Defining folds
+2022-02-19 12:50:56,981:INFO:Declaring metric variables
+2022-02-19 12:50:56,992:INFO:Importing untrained model
+2022-02-19 12:50:56,992:INFO:Declaring custom model
+2022-02-19 12:50:57,002:INFO:Linear Discriminant Analysis Imported succesfully
+2022-02-19 12:50:57,023:INFO:Starting cross validation
+2022-02-19 12:50:57,023:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-02-19 12:50:57,099:INFO:Calculating mean and std
+2022-02-19 12:50:57,101:INFO:Creating metrics dataframe
+2022-02-19 12:50:57,110:INFO:Finalizing model
+2022-02-19 12:50:57,119:INFO:Uploading results into container
+2022-02-19 12:50:57,120:INFO:Uploading model into container now
+2022-02-19 12:50:57,120:INFO:create_model_container: 22
+2022-02-19 12:50:57,120:INFO:master_model_container: 22
+2022-02-19 12:50:57,120:INFO:display_container: 9
+2022-02-19 12:50:57,120:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:50:57,120:INFO:create_model() succesfully completed......................................
+2022-02-19 12:50:57,191:INFO:SubProcess create_model() end ==================================
+2022-02-19 12:50:57,204:INFO:create_model_container: 22
+2022-02-19 12:50:57,204:INFO:master_model_container: 22
+2022-02-19 12:50:57,204:INFO:display_container: 9
+2022-02-19 12:50:57,205:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:50:57,205:INFO:tune_model() succesfully completed......................................
+2022-02-19 12:51:02,014:INFO:Initializing predict_model()
+2022-02-19 12:51:02,014:INFO:predict_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-02-19 12:51:02,014:INFO:Checking exceptions
+2022-02-19 12:51:02,015:INFO:Preloading libraries
+2022-02-19 12:51:02,015:INFO:Preparing display monitor
+2022-02-19 12:51:06,137:INFO:Initializing finalize_model()
+2022-02-19 12:51:06,137:INFO:finalize_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001), fit_kwargs=None, groups=None, model_only=True, display=None)
+2022-02-19 12:51:06,138:INFO:Finalizing LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:51:06,138:INFO:Initializing create_model()
+2022-02-19 12:51:06,138:INFO:create_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=False, system=False, metrics=None, add_to_model_list=False, probability_threshold=None, display=None, kwargs={})
+2022-02-19 12:51:06,138:INFO:Checking exceptions
+2022-02-19 12:51:06,138:INFO:Importing libraries
+2022-02-19 12:51:06,138:INFO:Copying training dataset
+2022-02-19 12:51:06,139:INFO:Defining folds
+2022-02-19 12:51:06,139:INFO:Declaring metric variables
+2022-02-19 12:51:06,139:INFO:Importing untrained model
+2022-02-19 12:51:06,139:INFO:Declaring custom model
+2022-02-19 12:51:06,140:INFO:Linear Discriminant Analysis Imported succesfully
+2022-02-19 12:51:06,140:INFO:Starting cross validation
+2022-02-19 12:51:06,140:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-02-19 12:51:06,225:INFO:Calculating mean and std
+2022-02-19 12:51:06,226:INFO:Creating metrics dataframe
+2022-02-19 12:51:06,230:INFO:Finalizing model
+2022-02-19 12:51:06,243:INFO:create_model_container: 22
+2022-02-19 12:51:06,243:INFO:master_model_container: 22
+2022-02-19 12:51:06,243:INFO:display_container: 11
+2022-02-19 12:51:06,243:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:51:06,243:INFO:create_model() succesfully completed......................................
+2022-02-19 12:51:06,314:INFO:create_model_container: 22
+2022-02-19 12:51:06,315:INFO:master_model_container: 22
+2022-02-19 12:51:06,315:INFO:display_container: 10
+2022-02-19 12:51:06,315:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:51:06,315:INFO:finalize_model() succesfully completed......................................
+2022-02-19 12:52:56,395:INFO:Initializing finalize_model()
+2022-02-19 12:52:56,395:INFO:finalize_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001), fit_kwargs=None, groups=None, model_only=True, display=None)
+2022-02-19 12:52:56,396:INFO:Finalizing LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:52:56,396:INFO:Initializing create_model()
+2022-02-19 12:52:56,396:INFO:create_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=False, system=False, metrics=None, add_to_model_list=False, probability_threshold=None, display=None, kwargs={})
+2022-02-19 12:52:56,396:INFO:Checking exceptions
+2022-02-19 12:52:56,397:INFO:Importing libraries
+2022-02-19 12:52:56,397:INFO:Copying training dataset
+2022-02-19 12:52:56,398:INFO:Defining folds
+2022-02-19 12:52:56,398:INFO:Declaring metric variables
+2022-02-19 12:52:56,398:INFO:Importing untrained model
+2022-02-19 12:52:56,398:INFO:Declaring custom model
+2022-02-19 12:52:56,398:INFO:Linear Discriminant Analysis Imported succesfully
+2022-02-19 12:52:56,399:INFO:Starting cross validation
+2022-02-19 12:52:56,399:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-02-19 12:52:56,480:INFO:Calculating mean and std
+2022-02-19 12:52:56,480:INFO:Creating metrics dataframe
+2022-02-19 12:52:56,484:INFO:Finalizing model
+2022-02-19 12:52:56,493:INFO:create_model_container: 22
+2022-02-19 12:52:56,493:INFO:master_model_container: 22
+2022-02-19 12:52:56,493:INFO:display_container: 11
+2022-02-19 12:52:56,495:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:52:56,495:INFO:create_model() succesfully completed......................................
+2022-02-19 12:52:56,566:INFO:create_model_container: 22
+2022-02-19 12:52:56,566:INFO:master_model_container: 22
+2022-02-19 12:52:56,566:INFO:display_container: 10
+2022-02-19 12:52:56,566:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001)
+2022-02-19 12:52:56,567:INFO:finalize_model() succesfully completed......................................
+2022-02-19 12:53:16,017:INFO:Initializing predict_model()
+2022-02-19 12:53:16,017:INFO:predict_model(estimator=LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage='auto',
+                           solver='lsqr', store_covariance=False, tol=0.0001), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2022-02-19 12:53:16,017:INFO:Checking exceptions
+2022-02-19 12:53:16,017:INFO:Preloading libraries
+2022-02-19 12:53:16,017:INFO:Preparing display monitor
