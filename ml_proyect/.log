@@ -143,3 +143,15 @@ C:\Users\ragod\anaconda3\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ
 2022-05-06 17:14:57,102 [11968] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
 2022-05-06 17:14:57,103 [11968] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
 2022-05-06 17:14:57,103 [11968] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-05-06 18:06:07,816 [8408] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-05-06 18:06:07,816 [8408] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-05-06 18:06:07,816 [8408] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-05-06 18:06:07,817 [8408] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-05-06 18:06:07,818 [8408] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-05-06 18:06:07,818 [8408] DEBUG    root:97: [JupyterRequire] Registering comm targets.
+2022-05-06 18:49:18,559 [5452] DEBUG    root:75: [JupyterRequire] Loading Jupyter Require extension.
+2022-05-06 18:49:18,559 [5452] DEBUG    root:93: [JupyterRequire] Initializing comms.
+2022-05-06 18:49:18,559 [5452] INFO     root:247: [JupyterRequire] Initializing comms.
+2022-05-06 18:49:18,560 [5452] DEBUG    root:195: [JupyterRequire] Configuration requested: {'paths': {}, 'shim': None}
+2022-05-06 18:49:18,560 [5452] INFO     root:271: [JupyterRequire] Comms have been successfully initialized.
+2022-05-06 18:49:18,560 [5452] DEBUG    root:97: [JupyterRequire] Registering comm targets.
