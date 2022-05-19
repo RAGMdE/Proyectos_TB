@@ -1,9 +1,10 @@
-n_nom_fondo,num_participaciones,moneda,valor,fecha,importe,t_cambio
-BGF Euro Short Duration Bond A2 EUR,22.45,EUR,15.16,18/05/2022,340.342,1.0
-iShares Euro Govt Bd Idx (LU) A2 EUR,8.34,EUR,117.7,18/05/2022,981.618,1.0
-iShares Em Markets Govt Bd Idx (LU) A2 EURH,13.22,EUR,93.87,18/05/2022,1240.9614000000001,1.0
-iShares Europe Equity Index (LU) A2 EUR ,11.77,EUR,199.2,18/05/2022,2344.584,1.0
-iShares Developed Real Estate Index Fund (IE) Institutional Acc EUR,31.32,EUR,18.87,17/05/2022,591.0084,1.0
-iShares North America Eq Index (LU) A2 USD,7.41,USD,292.6,18/05/2022,2168.166,0.94438872
-iShares Japan Equity Index (LU) A2 USD,6.22,USD,171.55,18/05/2022,1067.041,0.94438872
-iShares Emerging Markets Eq Idx (LU) A2 USD,9.77,USD,125.8,18/05/2022,1229.066,0.94438872
+n_nom_fondo,importe_euro
+BGF Euro Short Duration Bond A2 EUR,340.342
+iShares Euro Govt Bd Idx (LU) A2 EUR,981.618
+iShares Em Markets Govt Bd Idx (LU) A2 EURH,1240.9614000000001
+iShares Europe Equity Index (LU) A2 EUR ,2344.584
+iShares Developed Real Estate Index Fund (IE) Institutional Acc EUR,581.6124
+iShares North America Eq Index (LU) A2 USD,2047.2310558900203
+iShares Japan Equity Index (LU) A2 USD,1007.52408861127
+iShares Emerging Markets Eq Idx (LU) A2 USD,1160.51173431302
+total,9704.384678814311

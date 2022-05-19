@@ -8,7 +8,6 @@ import pandas as pd
 import time
 import datetime  # manejo temporal
 
-from bs4 import BeautifulSoup as bs
 
 from webdriver_manager.chrome import ChromeDriverManager
 from fake_useragent import UserAgent
@@ -83,5 +82,6 @@ archivo_con_fecha = f"{fecha2}_fondos.csv"
 # Crea CSV
 df_final.to_csv(archivo_con_fecha, index = False)
 
-
+df_final2=df_final[['n_nom_fondo', 'importe_euro']]
+df_final2.append({'n_nom_fondo':'total','importe_euro': 9704.80}, ignore_index = True)
                              
